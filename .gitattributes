@@ -1,0 +1,6 @@
+# preserve line endings on test files
+tests/unix/*.pls text eol=lf
+tests/win/*.pls text eol=crlf
+
+# preserve line endings on coverage script
+scripts/coverage.sh eol=lf
